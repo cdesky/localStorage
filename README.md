@@ -7,7 +7,8 @@ localStorage.setItem(key,value)：将value存储到key字段
 localStorage.removeItem(key):删除指定key本地存储的值
 
 
-localData = {
+localData = 
+{
         hname:location.hostname?location.hostname:'localStatus',
         isLocalStorage:window.localStorage?true:false,
         dataDom:null,
@@ -61,4 +62,4 @@ localData = {
                 }
             }
         }
-    }
+ }
